@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mithrilmod",
+	"version": "${version}",
+	"name": "mithril mod",
+	"description": "First Mod By Hunter Steward",
+	"authors": [
+		"Hunter Steward"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mithrilmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.huntersteward.mithrilmod.MithrilMod"
+		],
+		"fabric-datagen": [
+			"net.huntersteward.mithrilmod.MithrilModDataGenerator"
+		],
+		"client": [
+			"net.huntersteward.mithrilmod.mithrilModClient"
+		]
+	},
+	"mixins": [
+		"mithrilmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
