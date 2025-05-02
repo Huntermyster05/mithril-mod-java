@@ -1,3 +1,8 @@
 {
-  "item.mithrilmod.mithril_orb": "Mithril Orb"
+  "item.mithrilmod.mithril_orb": "Mithril Orb",
+
+  "block.mithrilmod.mithril_block": "Block of Mithril",
+  "block.mithrilmod.mithril_ore": "Mithril Ore",
+
+  "itemgroup.mithrilmod.mithril": "Mithril"
 }

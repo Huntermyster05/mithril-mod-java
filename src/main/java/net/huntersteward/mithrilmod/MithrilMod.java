@@ -2,6 +2,8 @@ package net.huntersteward.mithrilmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.huntersteward.mithrilmod.block.ModBlocks;
+import net.huntersteward.mithrilmod.item.ModItemGroups;
 import net.huntersteward.mithrilmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +15,9 @@ public class MithrilMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
