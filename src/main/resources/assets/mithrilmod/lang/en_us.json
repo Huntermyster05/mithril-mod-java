@@ -2,7 +2,9 @@
   "item.mithrilmod.mithril_orb": "Mithril Orb",
 
   "block.mithrilmod.mithril_block": "Block of Mithril",
-  "block.mithrilmod.mithril_ore": "Mithril Ore",
+  "block.mithrilmod.mithril_ore_block": "Mithril Ore Block",
+  "block.mithrilmod.mithril_deepslate_ore": "Deepslate Mithril Ore",
+
 
   "itemgroup.mithrilmod.mithril": "Mithril"
 }

@@ -19,7 +19,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.MITHRIL_ORB);
                         entries.add(ModBlocks.MITHRIL_BLOCK);
-                        entries.add(ModBlocks.MITHRIL_ORE);
+                        entries.add(ModBlocks.MITHRIL_ORE_BLOCK);
+                        entries.add(ModBlocks.MITHRIL_DEEPSLATE_ORE);
                     }).build());
 
     public static void registerItemGroups() {

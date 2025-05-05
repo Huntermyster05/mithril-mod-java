@@ -1,13 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "item": "mithrilmod:mithril_block"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "mithrilmod:mithril_orb"
     }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
   "result": {
-    "count": 9,
-    "id": "mithrilmod:mithril_orb"
+    "count": 1,
+    "id": "mithrilmod:mithril_block"
   }
 }
