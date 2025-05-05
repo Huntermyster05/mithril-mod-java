@@ -21,10 +21,10 @@ public class ModBlocks {
 
     public static final Block MITHRIL_ORE_BLOCK = registerBlock("mithril_ore_block",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
-                    AbstractBlock.Settings.create().strength(1f).requiresTool()));
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
     public static final Block MITHRIL_DEEPSLATE_ORE = registerBlock("mithril_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
-                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
