@@ -2,7 +2,6 @@ package net.huntersteward.mithrilmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.huntersteward.mithrilmod.MithrilMod;
-import net.huntersteward.mithrilmod.MithrilMod;
 import net.huntersteward.mithrilmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -19,8 +18,22 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.MITHRIL_ORB);
                         entries.add(ModBlocks.MITHRIL_BLOCK);
-                        entries.add(ModBlocks.MITHRIL_ORE_BLOCK);
+                        entries.add(ModBlocks.MITHRIL_ORE);
                         entries.add(ModBlocks.MITHRIL_DEEPSLATE_ORE);
+
+                        entries.add(ModItems.MITHRIL_SWORD);
+                        entries.add(ModItems.MITHRIL_PICKAXE);
+                        entries.add(ModItems.MITHRIL_SHOVEL);
+                        entries.add(ModItems.MITHRIL_AXE);
+                        entries.add(ModItems.MITHRIL_HOE);
+
+                        entries.add(ModItems.MITHRIL_HELMET);
+                        entries.add(ModItems.MITHRIL_CHESTPLATE);
+                        entries.add(ModItems.MITHRIL_LEGGINGS);
+                        entries.add(ModItems.MITHRIL_BOOTS);
+
+
+
                     }).build());
 
     public static void registerItemGroups() {

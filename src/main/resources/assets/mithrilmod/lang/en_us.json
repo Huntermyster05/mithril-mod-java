@@ -2,8 +2,19 @@
   "item.mithrilmod.mithril_orb": "Mithril Orb",
 
   "block.mithrilmod.mithril_block": "Block of Mithril",
-  "block.mithrilmod.mithril_ore_block": "Mithril Ore Block",
+  "block.mithrilmod.mithril_ore": "Mithril Ore Block",
   "block.mithrilmod.mithril_deepslate_ore": "Deepslate Mithril Ore",
+
+  "item.mithrilmod.mithril_sword": "Mithril Sword",
+  "item.mithrilmod.mithril_pickaxe": "Mithril Pickaxe",
+  "item.mithrilmod.mithril_shovel": "Mithril Shovel",
+  "item.mithrilmod.mithril_axe": "Mithril Axe",
+  "item.mithrilmod.mithril_hoe": "Mithril Hoe",
+
+  "item.mithrilmod.mithril_helmet": "Mithril Helmet",
+  "item.mithrilmod.mithril_chestplate": "Mithril Chestplate",
+  "item.mithrilmod.mithril_leggings": "Mithril Leggings",
+  "item.mithrilmod.mithril_boots": "Mithril Boots",
 
 
   "itemgroup.mithrilmod.mithril": "Mithril"

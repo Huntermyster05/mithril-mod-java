@@ -19,7 +19,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.METAL)));
 
-    public static final Block MITHRIL_ORE_BLOCK = registerBlock("mithril_ore_block",
+    public static final Block MITHRIL_ORE = registerBlock("mithril_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(3f).requiresTool()));
     public static final Block MITHRIL_DEEPSLATE_ORE = registerBlock("mithril_deepslate_ore",
@@ -40,7 +40,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.MITHRIL_BLOCK);
-fabricItemGroupEntries.add(ModBlocks.MITHRIL_ORE_BLOCK);
+fabricItemGroupEntries.add(ModBlocks.MITHRIL_ORE);
         });
     }
 }
