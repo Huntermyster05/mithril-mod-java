@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "mithrilmod:mithril_orb"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "RRR",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mithrilmod:mithril_pickaxe"
+  }
+}
