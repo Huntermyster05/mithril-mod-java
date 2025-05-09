@@ -64,6 +64,34 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.MITHRIL_ORB)
                 .criterion(hasItem(ModItems.MITHRIL_ORB), conditionsFromItem(ModItems.MITHRIL_ORB))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MITHRIL_HELMET)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("   ")
+                .input('R', ModItems.MITHRIL_ORB)
+                .criterion(hasItem(ModItems.MITHRIL_ORB), conditionsFromItem(ModItems.MITHRIL_ORB))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MITHRIL_CHESTPLATE)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.MITHRIL_ORB)
+                .criterion(hasItem(ModItems.MITHRIL_ORB), conditionsFromItem(ModItems.MITHRIL_ORB))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MITHRIL_LEGGINGS)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.MITHRIL_ORB)
+                .criterion(hasItem(ModItems.MITHRIL_ORB), conditionsFromItem(ModItems.MITHRIL_ORB))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MITHRIL_BOOTS)
+                .pattern("   ")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.MITHRIL_ORB)
+                .criterion(hasItem(ModItems.MITHRIL_ORB), conditionsFromItem(ModItems.MITHRIL_ORB))
+                .offerTo(exporter);
 
     }
 }

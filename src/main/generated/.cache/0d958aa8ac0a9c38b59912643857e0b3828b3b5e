@@ -1,4 +1,4 @@
-// 1.21.1	2025-05-08T12:07:25.3013148	mithril mod/Model Definitions
+// 1.21.1	2025-05-08T21:28:07.5497711	mithril mod/Model Definitions
 da71cae45768b9feeb69f14f5472f52dae85ff15 assets\mithrilmod\models\block\mithril_ore.json
 9c4319894ab4414bcdad1b219d2e45d73d2fb44c assets\mithrilmod\blockstates\mithril_ore.json
 67fff087a56b8cfb5a60e53f2151606a2afeec63 assets\mithrilmod\models\item\mithril_leggings_emerald_trim.json
@@ -13,8 +13,8 @@ b104ffd8233c22d8120157a96bc21345151b4484 assets\mithrilmod\models\item\mithril_b
 b55e4a7be7ce744893361beb5b7bf32cba262809 assets\mithrilmod\models\item\mithril_chestplate_amethyst_trim.json
 309c334fef6b2a04ae3d5a91aecd24effb886a42 assets\mithrilmod\models\item\mithril_boots_iron_trim.json
 0647aedde3e2bd08505c59aad5c4a04f39254f79 assets\mithrilmod\models\item\mithril_chestplate_iron_trim.json
-cf4e83772e8454cc47685cead93d61a1bc8eac19 assets\mithrilmod\models\item\mithril_deepslate_ore.json
 e5e283f614b819d9ccca05503ebeafd1b78f71b5 assets\mithrilmod\models\item\mithril_helmet_amethyst_trim.json
+cf4e83772e8454cc47685cead93d61a1bc8eac19 assets\mithrilmod\models\item\mithril_deepslate_ore.json
 9f0a596c201e753170173bf57cff56194bb07141 assets\mithrilmod\models\item\mithril_ore.json
 cade618799a1ab8eba8a5eda7aae667ecdeffd4a assets\mithrilmod\models\item\mithril_axe.json
 d457cb85ff05837ec639a29c4e569bc02ab19178 assets\mithrilmod\models\item\mithril_boots_emerald_trim.json
@@ -23,8 +23,8 @@ d457cb85ff05837ec639a29c4e569bc02ab19178 assets\mithrilmod\models\item\mithril_b
 92f0055b8511a150190de290c2595f28d90958d9 assets\mithrilmod\models\item\mithril_helmet_redstone_trim.json
 00b78ab7a8000f801a5404a7756f4f93c69b3f7e assets\mithrilmod\models\item\mithril_boots_gold_trim.json
 1e11af0cf0996546f844c029cb011c34f439479d assets\mithrilmod\models\item\mithril_chestplate_gold_trim.json
-12b0257a4a527b95ed70e15c1ff169063fdd0a8b assets\mithrilmod\models\item\mithril_helmet.json
 68e3cfcb1621d858e8f18efad34218b569e70348 assets\mithrilmod\models\item\mithril_helmet_copper_trim.json
+12b0257a4a527b95ed70e15c1ff169063fdd0a8b assets\mithrilmod\models\item\mithril_helmet.json
 5fff9d3af42fe6384c2c11dd3a1c9303bdf82407 assets\mithrilmod\models\item\mithril_chestplate.json
 893904da7fbdf651971a3517a2d3c921a3016874 assets\mithrilmod\blockstates\mithril_block.json
 8f425c53e69b36112e1831083da69de5cd1db24e assets\mithrilmod\models\item\mithril_chestplate_copper_trim.json
